@@ -56,7 +56,10 @@ fn go(v: &BitVec, s: &mut HashSet<BitVec>, cycle:bool)->usize {
 fn main() {
     let args: Vec<_> = env::args().collect();
     if args.len() < 2 {
-        println!("Usage: lenta <input_file>");
+        println!("Usage: {} <input_file> [cycle]", args[0]);
+        println!("input_file contains one line describing the cells, where space is a white cell
+        and * is black one");
+        println!("cycle is optional argument and means that stripe is a ring");
     } else {
 
     let cycle = args.len() > 2 && args[2].as_slice() == "cycle"; 
