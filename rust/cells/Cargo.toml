@@ -1,0 +1,5 @@
+[package]
+
+name = "cells"
+version = "0.0.1"
+authors = ["Dmitry Trofimov <dmitry.trofimov@jetbrains.com>"]
