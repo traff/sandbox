@@ -1,0 +1,9 @@
+[package]
+
+name = "hello_world"
+version = "0.0.1"
+authors = ["Dmitry Trofimov <dmitry.trofimov@jetbrains.com>"]
+
+[dependencies.semver]
+
+git = "https://github.com/rust-lang/semver.git"
